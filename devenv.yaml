@@ -1,0 +1,10 @@
+inputs:
+  devenv:
+    url: github:cachix/devenv/v1.0.1
+  fenix:
+    url: github:nix-community/fenix
+    inputs:
+      nixpkgs:
+        follows: nixpkgs
+  nixpkgs:
+    url: github:nixos/nixpkgs/nixos-24.05

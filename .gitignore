@@ -1,0 +1,42 @@
+# Rust
+/target/
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# devenv
+.devenv/
+devenv.lock
+
+# MySQL data
+mysql_data/
+*.sql~
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.tempCargo.lock
+
+.devenv.flake.nix
+.claude/settings.local.json
